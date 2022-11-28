@@ -6,7 +6,7 @@ Umas simples aplicação com a arquitetura baseada na clean arch (https://github
 
 ## Detalhes Tecnicos
 
-* Versão utilizada fdo Flutter: 3.0.3
+* Flutter: 3.0.3
 * Null safety
-* Clean Architeture
+* Clean Architecture
 * Solid
