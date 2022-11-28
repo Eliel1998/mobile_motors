@@ -52,7 +52,6 @@ void main() {
 
     // act
     final result = await repository.doLogin(loginRequestEntity: request);
-    print('passou poraqui');
     // assert
     expect(result, Right(response));
     verify(() => datasource.doLogin(loginRequestEntity: request)).called(1);
