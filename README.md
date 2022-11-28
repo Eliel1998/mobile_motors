@@ -1,16 +1,12 @@
 # mobile_motors
 
-A new Flutter project.
+## Aplicação
 
-## Getting Started
+Umas simples aplicação com a arquitetura baseada na clean arch (https://github.com/Flutterando/Clean-Dart) utilizando principios do Solid. A aplicação consiste em realizar login na API e trazer uma lista de carros onde é possivel ver detalhes do do mesmo e ver até mesmo um pequeno video de alguns deles.
 
-This project is a starting point for a Flutter application.
+## Detalhes Tecnicos
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Versão utilizada fdo Flutter: 3.0.3
+* Null safety
+* Clean Architeture
+* Solid
