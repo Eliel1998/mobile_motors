@@ -1,10 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:either_dart/either.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile_motors/app/core/failures/failure.dart';
 import 'package:mobile_motors/app/core/localstorage/local_storage.dart';
 import 'package:mobile_motors/app/feature/auth/domain/entities/login_request_entity.dart';
-import 'package:mobile_motors/app/feature/auth/domain/entities/user_info_entity.dart';
 import 'package:mobile_motors/app/feature/auth/domain/failures/login_failure.dart';
 import 'package:mobile_motors/app/feature/auth/domain/usecases/set_dio_headers_interceptor_usecase.dart';
 import 'package:mobile_motors/app/feature/auth/external/datasource/login_datasource_impl.dart';
