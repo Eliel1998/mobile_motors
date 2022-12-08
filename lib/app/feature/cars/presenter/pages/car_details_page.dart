@@ -154,8 +154,8 @@ class _CarDetailsPageState extends State<CarDetailsPage> {
   }
 }
 
-class MovieDetailContainerWidget extends StatefulWidget {
-  const MovieDetailContainerWidget({
+class CarDetailContainerWidget extends StatefulWidget {
+  const CarDetailContainerWidget({
     Key? key,
     required this.icon,
     required this.detail,
@@ -165,12 +165,12 @@ class MovieDetailContainerWidget extends StatefulWidget {
   final String detail;
 
   @override
-  State<MovieDetailContainerWidget> createState() =>
-      _MovieDetailContainerWidgetState();
+  State<CarDetailContainerWidget> createState() =>
+      _CarDetailContainerWidgetState();
 }
 
-class _MovieDetailContainerWidgetState
-    extends State<MovieDetailContainerWidget> {
+class _CarDetailContainerWidgetState
+    extends State<CarDetailContainerWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(

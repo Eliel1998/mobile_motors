@@ -48,7 +48,7 @@ class _CarsPageState extends State<CarsPage> {
         body:Padding(
           padding: const EdgeInsets.all(15),
           child: ValueListenableBuilder<List<CarEntity>>(valueListenable: controller.store.cars, builder: (context, value, child){
-            return controller.store.cars.value.isEmpty ? const Center(child: CircularProgressIndicator()) : ListView.builder(itemBuilder: (context, index){
+            return controller.store.cars.value.isEmpty ? const  Center(child: CircularProgressIndicator()) : ListView.builder(itemBuilder: (context, index){
               return value.isNotEmpty ? Card(
                 elevation: 3,
                 child: Container(

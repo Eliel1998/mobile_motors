@@ -4,7 +4,6 @@ import 'package:get_it/get_it.dart';
 import 'package:mobile_motors/app/core/localstorage/local_storage.dart';
 import 'package:mobile_motors/app/core/navigator/navigator.dart';
 import 'package:mobile_motors/app/feature/app_init/controller/init_controller.dart';
-import 'package:mobile_motors/app/feature/auth/domain/repositories/login_repository.dart';
 import 'package:mobile_motors/app/feature/auth/presenter/injectors/login_injector.dart';
 import 'package:mobile_motors/app/feature/auth/presenter/pages/login_page.dart';
 import 'package:mobile_motors/app/feature/cars/presenter/injectors/car_injector.dart';
